@@ -3,9 +3,9 @@
 # Ciclo de vida de desenvolvimento de software 
 (ex: plataforma de ensino)
 
-## Requisitos
+## REQUISITOS
 
-    -FUNCIONAIS
+   ## Funcionais
     
      Casos de uso
 
