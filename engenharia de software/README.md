@@ -5,7 +5,7 @@
 
 ## REQUISITOS
 
-   ## Funcionais
+   ## -Funcionais
     
      Casos de uso
 
@@ -16,7 +16,7 @@
 ![foto](https://github.com/alantrs/Bertoti/blob/4f76d9c2fc744727df236e1b89cce8f3c6486f91/engenharia%20de%20software/engenharia%20de%20software/cards.png)
 
      
-    -NÃO FUNCIONAIS
+   ## -Não Funcionais
     
      usabilidades 10 heuristicas
 
