@@ -18,7 +18,7 @@
      
    ## -Não Funcionais
     
-     usabilidades 10 heuristicas
+     usabilidades 
 
 ![foto](https://github.com/alantrs/Bertoti/blob/a980a6af556864a960c36d5d1bb3c21b7f0b0971/engenharia%20de%20software/engenharia%20de%20software/N%C3%A3o%20funcionais.jpeg)
 
