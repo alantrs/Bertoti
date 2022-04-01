@@ -9,7 +9,7 @@
     
      Casos de uso
 
-![foto](https://github.com/alantrs/Bertoti/blob/62ee47996317e36289e6a7ca2ee45230b2cdad93/engenharia%20de%20software/funcionais.png)
+![foto](https://github.com/alantrs/Bertoti/blob/6268d0347b98a60f70be64f4056fdd81f89a0d3f/engenharia%20de%20software/engenharia%20de%20software/funcionais.png)
 
      User stories 
  
