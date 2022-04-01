@@ -13,7 +13,7 @@
 
      User stories 
  
-![foto]()
+![foto](https://github.com/alantrs/Bertoti/blob/a8c788f56933786f70b1b771357e2ceca4a5fece/engenharia%20de%20software/engenharia%20de%20software/Cards%20(2).png)
 
      
    ## -Não Funcionais
