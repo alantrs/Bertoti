@@ -29,4 +29,4 @@
 
 ## Desenvolvimento
 
-![foto](https://github.com/alantrs/Bertoti/blob/2f843f398aa9160b3e9ac7f4820db88248e97d70/engenharia%20de%20software/engenharia%20de%20software/imagens/PlataformaDeEnsino1.png)
+![foto](https://github.com/alantrs/Bertoti/blob/903322fd95517c9d5d3c8e247cad54438e064d07/engenharia%20de%20software/engenharia%20de%20software/imagens/plataformadeensino.png)
