@@ -36,3 +36,5 @@
 
 ![foto](https://github.com/alantrs/Bertoti/blob/dbe9ad715c20d062cf8a02fef1a9ee90dbacf839/engenharia%20de%20software/engenharia%20de%20software/imagens/aluno.png)
 
+![foto](https://github.com/alantrs/Bertoti/blob/0eb60a1e6b5f15a18a69134745a5509b6d4744fe/engenharia%20de%20software/engenharia%20de%20software/imagens/professor.png)
+
