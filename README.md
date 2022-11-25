@@ -1,3 +1,3 @@
 # Bertoti
 
-atividades de engenharia de software
+Atividades acadêmicas Professor Bertoti
