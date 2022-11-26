@@ -2,5 +2,7 @@
 
 # Laboratório de banco de dados 3
 
-## Consumo de API rest 
+## Clientes rest 
+
+Consumo de API REST viacep 
 
