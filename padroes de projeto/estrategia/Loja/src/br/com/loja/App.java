@@ -11,8 +11,11 @@ public class App {
 
     public static void main(String[] args) {
 
+    	// Crio um orcamento
         Orcamento orcamento = new Orcamento(new BigDecimal("1000"));
+        // Crio a calculadora
         CalculadoraImposto calculadora = new CalculadoraImposto();
+        // Printo o orcamento e crio o imposto com o new
         System.out.println(calculadora.calcular(orcamento, new ISS()));
 
 

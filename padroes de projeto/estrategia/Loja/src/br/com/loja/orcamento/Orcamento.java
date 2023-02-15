@@ -14,7 +14,4 @@ public class Orcamento {
         return valor;
     }
 
-    public void setValor(BigDecimal valor){
-        this.valor = valor;
-    }
 }
