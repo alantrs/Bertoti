@@ -1,16 +1,14 @@
 package br.com.loja.orcamento;
 
-import java.math.BigDecimal;
-
 public class Orcamento {
 
-    private BigDecimal valor;
+    private double valor;
 
-    public Orcamento(BigDecimal valor){
-        this.valor = valor;
+    public Orcamento(double d){
+        this.valor = d;
     }
 
-    public BigDecimal getValor(){
+    public double getValor(){
         return valor;
     }
 

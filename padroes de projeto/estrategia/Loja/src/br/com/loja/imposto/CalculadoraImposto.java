@@ -2,9 +2,13 @@ package br.com.loja.imposto;
 
 import br.com.loja.orcamento.Orcamento;
 
-import java.math.BigDecimal;
-
 public class CalculadoraImposto {
+	
+	private Imposto imposto;
+	
+	public void setImposto(Imposto impo) {
+		imposto = impo;
+	}
 	
 	/* a principio existia as CLASSES CalculadoraImposto, Orcamento
 	 * um ENUM imposto onde existiam o ICMS e o ISS
@@ -15,7 +19,7 @@ public class CalculadoraImposto {
 	 * e cada um tem sua forma de no metodo calcular (polimorfismo)
 	 */
 
-    public BigDecimal calcular(Orcamento orcamento, Imposto imposto){
+    public double calcular(Orcamento orcamento){
         return imposto.calcular(orcamento);
     }
 }
