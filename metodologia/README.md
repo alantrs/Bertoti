@@ -11,11 +11,13 @@ IACIT soluções tecnológicas S.A.
 ### Professores responsáveis do projeto
 
 Lucas Nadalete - M2
+
 Eduardo Sakaue - P2
 
 ### Desafio
 
-O desafio proposto era criar um sistema que permitisse realizar a importação dos dados meteorológicos, bem como armazená-los em uma base de dados, para posteriormente gerar os relatórios desejados pelos clientes da empresa IACIT. Os dados disponibilizados vieram alocados em CSV's, e a aplicação deveria ser capaz de inseri-los em um banco de dados relacional. Depois de alocados no banco, a aplicação tratava os dados através de um back-end em spring boot, e mostrados através de um front-end javascript, html e css. 
+Foi proposto um desafio para desenvolver um sistema capaz de importar dados meteorológicos, armazená-los em uma base de dados e gerar relatórios solicitados pelos clientes da empresa IACIT. Os dados foram disponibilizados em arquivos CSV e a aplicação deveria ser capaz de inseri-los em um banco de dados relacional. Após a inserção, os dados seriam tratados por um back-end em Spring Boot e exibidos por um front-end em JavaScript, HTML e CSS.
+
  - Requisitos funcionais exigidos: Cadastro de estações, cadastro de estados e regiões, importação de dados e geração de relatórios.
  - Requisitos não funcionais exigidos: Sistema Web, linguagem java, banco de dados relacional e documentações.
  
