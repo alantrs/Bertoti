@@ -1,27 +1,40 @@
 # Alan Araujo Rodrigues
 
-# Terceiro projeto: API - 2022-2
-
-## Descrição do projeto
+# Projeto 3: Terceiro semestre
 
 ### Empresa parceira  
 
 IACIT soluções tecnológicas S.A.
 
-### Professores responsáveis do projeto
-
-Lucas Nadalete - M2
-
-Eduardo Sakaue - P2
-
-### Desafio
+## Descrição do projeto
 
 Foi proposto um desafio para desenvolver um sistema capaz de importar dados meteorológicos, armazená-los em uma base de dados e gerar relatórios solicitados pelos clientes da empresa IACIT. Os dados foram disponibilizados em arquivos CSV e a aplicação deveria ser capaz de inseri-los em um banco de dados relacional. Após a inserção, os dados seriam tratados por um back-end em Spring Boot e exibidos por um front-end em JavaScript, HTML e CSS.
 
- - Requisitos funcionais exigidos: Cadastro de estações, cadastro de estados e regiões, importação de dados e geração de relatórios.
- - Requisitos não funcionais exigidos: Sistema Web, linguagem java, banco de dados relacional e documentações.
+ - `Requisitos funcionais exigidos:` Cadastro de estações, cadastro de estados e regiões, importação de dados e geração de relatórios.
+ - `Requisitos não funcionais exigidos:` Sistema Web, linguagem java, banco de dados relacional e documentações.
  
- ### Tecnologias utilizadas
+ ## Tecnologias utilizadas
+ 
+### Java
+ 
+A linguagem Java foi utilizada para desenvolver todo o back-end da aplicação, utilizando o framework Spring Boot. O Spring Boot é uma estrutura que permite aos desenvolvedores criar rapidamente aplicativos web em Java, fornecendo um conjunto de ferramentas e bibliotecas que tornam a construção de aplicativos mais rápida e fácil.
+
+### PostgreSQL
+
+O banco de dados PostgreSQL foi utilizado para armazenar os dados meteorológicos que foram importados a partir dos arquivos CSVs, que foi disponibilizado pela empresa. PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto que é amplamente utilizado em aplicações empresariais e científicas, devido à sua confiabilidade, escalabilidade e recursos avançados. Além disso, o PostgreSQL é compatível com muitas linguagens de programação, incluindo Java, que foi usada neste projeto. Isso significa que os dados podem ser facilmente acessados e manipulados por meio do back-end da aplicação, permitindo que a equipe de desenvolvimento crie consultas complexas para gerar os relatórios solicitados pelos clientes da empresa IACIT.
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
  
 
 
