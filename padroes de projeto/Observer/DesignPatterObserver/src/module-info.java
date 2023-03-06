@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author alanz
+ *
+ */
+module DesignPatterObserver {
+}
