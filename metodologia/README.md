@@ -8,7 +8,7 @@ IACIT soluções tecnológicas S.A.
 
 ## Descrição do projeto
 
-Foi proposto um desafio para desenvolver um sistema capaz de importar dados meteorológicos, armazená-los em uma base de dados e gerar relatórios solicitados pelos clientes da empresa IACIT. Os dados foram disponibilizados em arquivos CSV e a aplicação deveria ser capaz de inseri-los em um banco de dados relacional. Após a inserção, os dados seriam tratados por um back-end em Spring Boot e exibidos por um front-end em JavaScript, HTML e CSS.
+Foi proposto um desafio para desenvolver um sistema capaz de importar dados meteorológicos de arquivos CSV disponibilizados pela empresa, armazená-los em uma base de dados e gerar relatórios solicitados pelos clientes da empresa IACIT. A aplicação web é capaz filtrar os registros por regiões, estados, estações, tipo de dado e ranges de datas, além de exibir as informações em formato de gráficos e cards. Por fim, é possível obter relatórios com base na pesquisa realizada.
 
  - `Requisitos funcionais exigidos:` Cadastro de estações, cadastro de estados e regiões, importação de dados e geração de relatórios.
  - `Requisitos não funcionais exigidos:` Sistema Web, linguagem java, banco de dados relacional e documentações.
