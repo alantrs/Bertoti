@@ -1,4 +1,4 @@
-public class Main {
+public class App {
     public static void main(String[] args) {
         // Obtém a instância Singleton de AppConfig
         AppConfig config = AppConfig.getInstance();

@@ -26,7 +26,6 @@ public class AppConfig {
     public String getAppName() {
         return appName;
     }
-
     public String getAppVersion() {
         return appVersion;
     }
