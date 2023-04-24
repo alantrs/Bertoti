@@ -9,15 +9,7 @@ public class Planta implements Componente {
         this.umidade = umidade;
     }
 
-    public void adicionar(Componente c) {
-            // Nada a fazer, pois folhas não podem ter filhos
-    }
-
-    public void remover(Componente c) {
-            // Nada a fazer, pois folhas não podem ter filhos
-    }
-
     public void exibirInfo() {
-            System.out.println("Planta: " + nome + ", temperatura: " + temperatura + ", umidade: " + umidade);
+        System.out.println("Planta: " + nome + ", temperatura: " + temperatura + ", umidade: " + umidade);
     }
 }

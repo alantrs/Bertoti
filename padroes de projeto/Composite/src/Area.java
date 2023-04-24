@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Area {
+public class Area implements Componente{
 
     private String nome;
     private List<Componente> filhos = new ArrayList<Componente>();
