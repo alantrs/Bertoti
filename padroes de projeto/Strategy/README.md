@@ -1,1 +1,1 @@
-![id](https://github.com/alantrs/Bertoti/blob/1ae69eaa12787286c8d1b02c9f3c5c7ed7fca7f0/padroes%20de%20projeto/estrategia/StrategyUML.png)
+![id](https://github.com/alantrs/Bertoti/blob/3e03b6d77466651d2a8c82deab65ab3892b0233e/padroes%20de%20projeto/Strategy/StrategyUML.png)
