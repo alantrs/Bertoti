@@ -31,6 +31,16 @@ Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável
 
 ## Contribuições pessoais
 
+Fui scrum master da minha equipe. Em resumo, o Scrum Master é o responsável por garantir que o processo Scrum esteja sendo seguido corretamente e que a equipe esteja funcionando de maneira eficaz e produtiva.<br>
+Algumas das minhas atribuições:
+* Garantir que a equipe esteja seguindo os princípios do Scrum e entendendo seus papéis e responsabilidades.
+* Organizar e facilitar as reuniões do Scrum, incluindo o Sprint Planning, a Daily Scrum, o Sprint Review e o Sprint Retrospective.
+* Ajudar a equipe a criar e manter o Backlog do Produto, garantindo que esteja atualizado e priorizado corretamente.
+* Remover impedimentos que possam impedir a equipe de concluir as tarefas necessárias para atingir os objetivos do Sprint.
+* Monitorar o progresso da equipe e garantir que ela esteja cumprindo os prazos e entregando os itens do Backlog do Produto dentro do prazo.
+* Fornecer feedback regular aos membros da equipe e ajudá-los a melhorar continuamente o seu processo de trabalho.
+* Garantir uma comunicação eficaz entre todos os membros da equipe, incluindo o Product Owner, os desenvolvedores e outras partes interessadas.
+* Promover um ambiente de trabalho positivo e colaborativo para a equipe.
 
 
 
