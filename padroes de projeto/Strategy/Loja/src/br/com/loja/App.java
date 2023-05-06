@@ -19,6 +19,5 @@ public class App {
         
         System.out.println(calculadora.calcular(new Orcamento(1000)));
 
-
     }
 }
