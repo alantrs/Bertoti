@@ -42,6 +42,10 @@ Algumas das minhas atribuições:
 * Garantir uma comunicação eficaz entre todos os membros da equipe, incluindo o Product Owner, os desenvolvedores e outras partes interessadas.
 * Promover um ambiente de trabalho positivo e colaborativo para a equipe.
 
+## Aprendizados efetivos
+
+
+
 
 
 
