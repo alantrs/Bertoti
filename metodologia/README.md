@@ -43,6 +43,62 @@ Algumas das minhas atribuições:
 * Promover um ambiente de trabalho positivo e colaborativo para a equipe.
 
 ## Aprendizados efetivos
+<details>
+  <summary>Domínio do processo Scrum</summary>
+  <ul>
+    <li>Compreensão dos princípios e papéis do Scrum.</li>
+    <li>Organização e facilitação de reuniões do Scrum.</li>
+    <li>Conhecimento sobre:
+      <ul>
+        <li>Sprint Planning</li>
+        <li>Daily Scrum</li>
+        <li>Sprint Review</li>
+        <li>Sprint Retrospective</li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary>Remoção de impedimentos</summary>
+  <ul>
+    <li>Identificação de obstáculos que afetam a produtividade da equipe.</li>
+    <li>Busca de soluções para superar os impedimentos.</li>
+    <li>Habilidade em lidar com problemas e obstáculos durante o projeto.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Comunicação e colaboração</summary>
+  <ul>
+    <li>Facilitação de uma comunicação eficaz entre os membros da equipe.</li>
+    <li>Promoção de um ambiente de trabalho colaborativo.</li>
+    <li>Gestão das interações entre:
+      <ul>
+        <li>Product Owner</li>
+        <li>Desenvolvedores</li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
+<details>
+  <summary>Feedback e melhoria contínua</summary>
+  <ul>
+    <li>Fornecimento de feedback regular aos membros da equipe.</li>
+    <li>Identificação de áreas de melhoria e orientação para o aprimoramento do processo de trabalho.</li>
+    <li>Promoção da cultura de melhoria contínua no projeto.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Habilidades de liderança e organização</summary>
+  <ul>
+    <li>Liderança da equipe como Scrum Master.</li>
+    <li>Motivação da equipe para alcançar os objetivos do projeto.</li>
+    <li>Resolução de conflitos e tomada de decisões rápidas e eficazes.</li>
+  </ul>
+</details>
 
 
 
