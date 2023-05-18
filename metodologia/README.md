@@ -51,7 +51,7 @@ Fui o administrador do banco de dados da equipe em conjunto com a função de Sc
 </details>
 
 <details>
-  <summary>Algumas das minhas contribuições como Admnistrador de banco de dados:</summary>
+  <summary>Algumas das minhas contribuições como Administrador de banco de dados:</summary>
 </details>
 
 ## Aprendizados efetivos
