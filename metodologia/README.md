@@ -39,15 +39,30 @@ Fui o administrador do banco de dados da equipe em conjunto com a função de Sc
 <br>
 <details>
   <summary>Algumas das minhas contribuições como Administrador de banco de dados:</summary>
- <br>
- <ul>
-    <li>Modelagem do banco de dados.</li>
-    <li>Implementação física do banco de dados(criar as tabelas, definir as colunas, os tipos de dados, as chaves primárias, as chaves estrangeiras e as restrições necessárias para cada tabela).</li>
-    <li>Gerar os scripts para replicação do banco.</li>
-    <li>Melhorar querys.</li>
-    <li>Gerar backup.</li>
-  </ul>
+  <br>
+  <ul>
+    <details>
+      <summary>Modelagem do banco de dados.</summary>
+      <br>
+      <img src="https://github.com/alantrs/Bertoti/blob/e19d9567debe132ef4387b306ba9451d048716cf/metodologia/Imagens/modelagem_img1.jpeg" alt="Modelagem do banco de dados">
+    </details>
+   <details>
+      <summary>Implementação física do banco de dados (criar as tabelas, definir as colunas, os tipos de dados, as chaves primárias, as chaves estrangeiras e as restrições necessárias para cada tabela).</summary>
+      <br>
+      <img src="https://github.com/alantrs/Bertoti/blob/9ea504d93f38be6eb8a90e052fb204119d34ae62/metodologia/Imagens/Cadastro.png" alt="script cadastro">
+    <img src="https://github.com/alantrs/Bertoti/blob/9ea504d93f38be6eb8a90e052fb204119d34ae62/metodologia/Imagens/Dados.png" alt="Script dados">
+   </details>
+   <details>
+  <summary style="background-color: lightgray; padding: 5px;">Gerar backup.</summary>
+    <br>
+  <p style="margin-left: 20px;">
+    <code>pg_dump -U postgres -d iacit -F p -f "C:backup_iacit.sql"</code>
+  </p>
 </details>
+
+ </ul>
+</details>
+
 <details>
   <summary>Algumas das minhas contribuições como Master:</summary>
  <br>
