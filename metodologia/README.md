@@ -1,5 +1,8 @@
 # Alan Araujo Rodrigues
 
+## Introdução
+Seja bem vindo ao meu portifólio acadêmico. Aqui estarão listados todos os meus projetos durante a formação em Banco de dados. 
+
 # Projeto 3: Terceiro semestre
 
 ### Empresa parceira  
@@ -31,10 +34,20 @@ Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável
 
 ## Contribuições pessoais
 
-Fui o administrador do banco de dados da equipe em conjunto com a função de Scrum master. Como DBA desenvolvi desde a modelagem de dados até a criação da base de dados completa. Como scrum master fui responsável por garantir que o processo Scrum esteja sendo seguido corretamente e que a equipe esteja funcionando de maneira eficaz e produtiva.
+Fui o administrador do banco de dados da equipe em conjunto com a função de Scrum master. Como DBA desenvolvi desde a modelagem de dados até a criação da base de dados completa. Como scrum master fui responsável por garantir que o processo Scrum estivesse sendo seguido corretamente e que a equipe estivesse funcionando de maneira eficaz e produtiva.
 
 <br>
-
+<details>
+  <summary>Algumas das minhas contribuições como Administrador de banco de dados:</summary>
+ <br>
+ <ul>
+    <li>Modelagem do banco de dados.</li>
+    <li>Implementação física do banco de dados(criar as tabelas, definir as colunas, os tipos de dados, as chaves primárias, as chaves estrangeiras e as restrições necessárias para cada tabela).</li>
+    <li>Gerar os scripts para replicação do banco.</li>
+    <li>Melhorar querys.</li>
+    <li>Gerar backup.</li>
+  </ul>
+</details>
 <details>
   <summary>Algumas das minhas contribuições como Master:</summary>
  <br>
@@ -50,9 +63,6 @@ Fui o administrador do banco de dados da equipe em conjunto com a função de Sc
   </ul>
 </details>
 
-<details>
-  <summary>Algumas das minhas contribuições como Administrador de banco de dados:</summary>
-</details>
 
 ## Aprendizados efetivos
 <details>
