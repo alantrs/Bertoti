@@ -1,7 +1,7 @@
 # Alan Araujo Rodrigues
 
 ## Introdução
-Seja bem vindo ao meu portifólio acadêmico. Aqui estarão listados todos os meus projetos durante a formação em Banco de dados. 
+Seja bem vindo ao meu portifólio acadêmico. Aqui estarão listados todos os meus projetos durante minha formação em Banco de dados. 
 
 # Projeto 3: Terceiro semestre
 
