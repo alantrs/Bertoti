@@ -68,7 +68,7 @@ Fui o administrador do banco de dados da equipe em conjunto com a função de Sc
  <br>
  <ul>
     <li>Garantir que a equipe esteja seguindo os princípios do Scrum e entendendo seus papéis e responsabilidades.</li>
-    <li>Organizar e facilitar as reuniões do Scrum, incluindo o Sprint Planning, a Daily Scrum, o Sprint Review e o Sprint Retrospective.</li>
+    <li>Organizar e facilitar as reuniões do Scrum</li>
     <li>Ajudar a equipe a criar e manter o Backlog do Produto, garantindo que esteja atualizado e priorizado corretamente.</li>
     <li>Remover impedimentos que possam impedir a equipe de concluir as tarefas necessárias para atingir os objetivos do Sprint.</li>
     <li>Monitorar o progresso da equipe e garantir que ela esteja cumprindo os prazos e entregando os itens do Backlog do Produto dentro do prazo.</li>
@@ -80,67 +80,42 @@ Fui o administrador do banco de dados da equipe em conjunto com a função de Sc
 
 
 ## Aprendizados efetivos
+
+Como DBA, adquiri conhecimentos em modelagem de dados, arquitetura do SGBD PostgreSQL, e aprofundei meus conhecimentos em SQL incluindo comandos DDL, DML e DCL. Como Scrum Master, desenvolvi habilidades valiosas em liderança, facilitação do processo Scrum, remoção de impedimentos, comunicação, feedback e melhoria contínua.
+
+<details>
+  <summary>Modelagem de dados</summary>
+  <ul>
+    <li>Estrutura do banco, distribuição das tabelas</li>
+    <li>Evitar redundâncias</li>
+  </ul>
+ </details>
+<details>
+  <summary>SQL</summary>
+  <ul>
+    <li>DDL (Data Definition Language)</li>
+    <li>DML (Data Manipulation Language)</li>
+    <li>DCL (Data Control Language)</li>
+  </ul>
+ </details>
+ <details>
+  <summary>Administração do PostgreSQL</summary>
+  <ul>
+    <li>Política de backup</li>
+    <li>Criação de usuário</li>
+  </ul>
+ </details>
+
 <details>
   <summary>Domínio do processo Scrum</summary>
   <ul>
     <li>Compreensão dos princípios e papéis do Scrum.</li>
-    <li>Organização e facilitação de reuniões do Scrum.</li>
-    <li>Conhecimento sobre:
-      <ul>
-        <li>Sprint Planning</li>
-        <li>Daily Scrum</li>
-        <li>Sprint Review</li>
-        <li>Sprint Retrospective</li>
-      </ul>
-    </li>
+   <li>Remoção de impedimentos</li>
+   <li>Comunicação e colaboração</li>
+   <li>Feedback e melhoria contínua</li>
+   <li>Habilidades de liderança e organização</li>
   </ul>
-</details>
-
-<details>
-  <summary>Remoção de impedimentos</summary>
-  <ul>
-    <li>Identificação de obstáculos que afetam a produtividade da equipe.</li>
-    <li>Busca de soluções para superar os impedimentos.</li>
-    <li>Habilidade em lidar com problemas e obstáculos durante o projeto.</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Comunicação e colaboração</summary>
-  <ul>
-    <li>Facilitação de uma comunicação eficaz entre os membros da equipe.</li>
-    <li>Promoção de um ambiente de trabalho colaborativo.</li>
-    <li>Gestão das interações entre:
-      <ul>
-        <li>Product Owner</li>
-        <li>Desenvolvedores</li>
-      </ul>
-    </li>
-  </ul>
-</details>
-
-<details>
-  <summary>Feedback e melhoria contínua</summary>
-  <ul>
-    <li>Fornecimento de feedback regular aos membros da equipe.</li>
-    <li>Identificação de áreas de melhoria e orientação para o aprimoramento do processo de trabalho.</li>
-    <li>Promoção da cultura de melhoria contínua no projeto.</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Habilidades de liderança e organização</summary>
-  <ul>
-    <li>Liderança da equipe como Scrum Master.</li>
-    <li>Motivação da equipe para alcançar os objetivos do projeto.</li>
-    <li>Resolução de conflitos e tomada de decisões rápidas e eficazes.</li>
-  </ul>
-</details>
-
-
-
-
-
+ </details>
 
 
 
