@@ -7,7 +7,11 @@ Seja bem vindo ao meu portifólio acadêmico. Aqui estarão listados todos os me
 
 ### Empresa parceira  
 
-IACIT soluções tecnológicas S.A.
+<p align="center">
+    <b>IACIT soluções tecnológicas S.A.</b> 
+    <img src="https://github.com/alantrs/Bertoti/blob/ce55d69f624ba22495bcf76f626bb86899750763/metodologia/Imagens/Iacit.png" alt="Logo da IACIT soluções tecnológicas">
+</p>
+
 
 ## Descrição do projeto
 
