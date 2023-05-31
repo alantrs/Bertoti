@@ -41,30 +41,130 @@ Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável
 Fui o administrador do banco de dados da equipe em conjunto com a função de Scrum master. Como DBA desenvolvi desde a modelagem de dados até a criação da base de dados completa. Como scrum master fui responsável por garantir que o processo Scrum estivesse sendo seguido corretamente e que a equipe estivesse funcionando de maneira eficaz e produtiva.
 
 <br>
-<details>
-  <summary>Algumas das minhas contribuições como Administrador de banco de dados:</summary>
-  <br>
-  <ul>
     <details>
       <summary>Modelagem do banco de dados.</summary>
       <br>
       <img src="https://github.com/alantrs/Bertoti/blob/e19d9567debe132ef4387b306ba9451d048716cf/metodologia/Imagens/modelagem_img1.jpeg" alt="Modelagem do banco de dados">
+    A modelagem de dados é o processo de criar uma representação estruturada e abstrata dos dados para atender aos requisitos de um sistema de computador. Ela ajuda a compreender e descrever os dados, estruturá-los de forma lógica, tomar decisões informadas, desenvolver sistemas de informação, integrar sistemas e facilitar a manutenção e evolução do sistema. Em suma, a modelagem de dados é essencial para garantir a eficiência e qualidade dos sistemas de software.
     </details>
+    
    <details>
       <summary>Implementação física do banco de dados (criar as tabelas, definir as colunas, os tipos de dados, as chaves primárias, as chaves estrangeiras e as restrições necessárias para cada tabela).</summary>
       <br>
-      <img src="https://github.com/alantrs/Bertoti/blob/9ea504d93f38be6eb8a90e052fb204119d34ae62/metodologia/Imagens/Cadastro.png" alt="script cadastro">
-    <img src="https://github.com/alantrs/Bertoti/blob/9ea504d93f38be6eb8a90e052fb204119d34ae62/metodologia/Imagens/Dados.png" alt="Script dados">
-   </details>
-   <details>
+    
+      
+```SQL
+    
+CREATE TABLE regiao (
+    regiao_id serial,
+    nome_regiao VARCHAR,
+    CONSTRAINT pk_regiao_id PRIMARY KEY (regiao_id),
+    CONSTRAINT unique_regiao UNIQUE (nome_regiao)
+);
+CREATE TABLE estado (
+    estado_id serial,
+    nome_estado VARCHAR,
+    fk_regiao_nome_regiao VARCHAR,
+    CONSTRAINT pk_estado_id PRIMARY KEY (estado_id),
+    CONSTRAINT fk_estado FOREIGN KEY (fk_regiao_nome_regiao)
+               REFERENCES regiao (nome_regiao),
+    CONSTRAINT unique_estado UNIQUE (nome_estado)
+);
+CREATE TABLE estacao (
+    nome_estacao VARCHAR,
+    cod_wmo VARCHAR,
+    latitude NUMERIC,
+    longitude VARCHAR,
+    altitude NUMERIC,
+    data_fundacao DATE,
+    fk_estado_nome_estado VARCHAR,
+    CONSTRAINT pk_cod_wmo PRIMARY KEY (cod_wmo),
+    CONSTRAINT fk_estacao FOREIGN KEY (fk_estado_nome_estado)
+               REFERENCES estado (nome_estado)	
+);
+CREATE TABLE precipitacao (
+    prec_id serial,
+    prec_data DATE,
+    prec_hora TIME,
+    prec_total NUMERIC,
+    fk_estacao_cod_wmo VARCHAR,
+    CONSTRAINT pk_prec_id PRIMARY KEY (prec_id),
+    CONSTRAINT fk_precipitacao FOREIGN KEY (fk_estacao_cod_wmo)
+               REFERENCES estacao (cod_wmo)
+);
+CREATE TABLE pressao_atmosferica (
+    pre_atm_id serial,
+    pre_data DATE,
+    pre_hora TIME,
+    pre_atm_estacao NUMERIC,
+    pre_atm_max NUMERIC,
+    pre_atm_min NUMERIC,
+    fk_estacao_cod_wmo VARCHAR,
+    CONSTRAINT pk_pre_atm_id PRIMARY KEY (pre_atm_id),
+    CONSTRAINT fk_pressao_atmosferica FOREIGN KEY (fk_estacao_cod_wmo)
+               REFERENCES estacao (cod_wmo)
+);
+CREATE TABLE radiacao_global (
+    rad_id serial,
+    rad_data DATE,
+    rad_hora TIME,
+    rad_global NUMERIC,
+    fk_estacao_cod_wmo VARCHAR,
+    CONSTRAINT pk_rad_id PRIMARY KEY (rad_id),
+    CONSTRAINT fk_radiacao_global FOREIGN KEY (fk_estacao_cod_wmo)
+               REFERENCES estacao (cod_wmo)
+);
+CREATE TABLE temperatura (
+    temp_id serial,
+    temp_data DATE,
+    temp_hora TIME,
+    temp_ar NUMERIC,
+    temp_ponto_orvalho NUMERIC,
+    temp_max NUMERIC,
+    temp_min NUMERIC,
+    temp_orvalho_max NUMERIC,
+    temp_orvalho_min NUMERIC,
+    fk_estacao_cod_wmo VARCHAR,
+    CONSTRAINT pk_temp_id PRIMARY KEY (temp_id),
+    CONSTRAINT fk_temperatura FOREIGN KEY (fk_estacao_cod_wmo)
+               REFERENCES estacao (cod_wmo)
+);
+CREATE TABLE umidade (
+    umi_id serial,
+    umi_data DATE,
+    umi_hora TIME,
+    umi_rel_max NUMERIC,
+    umi_rel_min NUMERIC,
+    umi_rel_ar NUMERIC,
+    fk_estacao_cod_wmo VARCHAR,
+    CONSTRAINT pk_umi_id PRIMARY KEY (umi_id),
+    CONSTRAINT fk_umidade FOREIGN KEY (fk_estacao_cod_wmo)
+               REFERENCES estacao (cod_wmo)
+);
+CREATE TABLE vento (
+    ven_id serial,
+    ven_data DATE,
+    ven_hora TIME,
+    ven_direcao_hor NUMERIC,
+    ven_rajada_max NUMERIC,
+    ven_velocidade_hor NUMERIC,
+    fk_estacao_cod_wmo VARCHAR,
+    CONSTRAINT pk_ven_id PRIMARY KEY (ven_id),
+    CONSTRAINT fk_vento FOREIGN KEY (fk_estacao_cod_wmo)
+               REFERENCES estacao (cod_wmo)
+);
+
+```
+    
+    
+ </details>
+   
+<details>
   <summary style="background-color: lightgray; padding: 5px;">Gerar backup.</summary>
     <br>
   <p style="margin-left: 20px;">
     <code>pg_dump -U postgres -d iacit -F p -f "C:backup_iacit.sql"</code>
   </p>
-</details>
-
- </ul>
 </details>
 
 <details>
@@ -120,7 +220,8 @@ Como DBA, adquiri conhecimentos em modelagem de dados, arquitetura do SGBD Postg
    <li>Habilidades de liderança e organização</li>
   </ul>
  </details>
-
+ 
+ 
 
 
 
