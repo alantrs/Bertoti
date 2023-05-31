@@ -38,15 +38,18 @@ Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável
 
 ## Contribuições pessoais
 
-Fui o administrador do banco de dados da equipe em conjunto com a função de Scrum master. Como DBA desenvolvi desde a modelagem de dados até a criação da base de dados completa. Como scrum master fui responsável por garantir que o processo Scrum estivesse sendo seguido corretamente e que a equipe estivesse funcionando de maneira eficaz e produtiva.
+A modelagem de dados é o processo de criar um modelo que representa a estrutura e as relações dos dados em um banco de dados. O Modelo Entidade-Relacionamento (MER) é um modelo comum usado nesse processo. Ele consiste em entidades (objetos do mundo real), relacionamentos (associações entre as entidades) e atributos (características das entidades). O MER é uma representação visual que ajuda a entender a estrutura do banco de dados. Com base no MER, pode-se criar um modelo físico que descreve como os dados serão armazenados e organizados em um sistema de gerenciamento de banco de dados específico.
 
 <br>
     <details>
-      <summary>Modelagem do banco de dados.</summary>
-      <br>
-      <img src="https://github.com/alantrs/Bertoti/blob/e19d9567debe132ef4387b306ba9451d048716cf/metodologia/Imagens/modelagem_img1.jpeg" alt="Modelagem do banco de dados">
-    A modelagem de dados é o processo de criar uma representação estruturada e abstrata dos dados para atender aos requisitos de um sistema de computador. Ela ajuda a compreender e descrever os dados, estruturá-los de forma lógica, tomar decisões informadas, desenvolver sistemas de informação, integrar sistemas e facilitar a manutenção e evolução do sistema. Em suma, a modelagem de dados é essencial para garantir a eficiência e qualidade dos sistemas de software.
-    </details>
+<summary>Modelagem do banco de dados.</summary>
+<br>
+
+A modelagem de dados para um banco de dados envolve a criação de uma estrutura organizada para armazenar e manipular os dados. Ela define as tabelas, colunas e relações entre os dados, garantindo a eficiência e a integridade do banco de dados. É um processo fundamental para projetar um sistema de banco de dados eficiente e fácil de usar.
+
+![Modelagem do banco de dados](https://github.com/alantrs/Bertoti/blob/e19d9567debe132ef4387b306ba9451d048716cf/metodologia/Imagens/modelagem_img1.jpeg)
+</details>
+
     
    <details>
       <summary>Implementação física do banco de dados (criar as tabelas, definir as colunas, os tipos de dados, as chaves primárias, as chaves estrangeiras e as restrições necessárias para cada tabela).</summary>
