@@ -38,14 +38,16 @@ Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável
 
 ## Contribuições pessoais
 
-A modelagem de dados é o processo de criar um modelo que representa a estrutura e as relações dos dados em um banco de dados. No caso deste projeto, o objetivo da modelagem de dados foi representar os dados meteorológicos, como temperatura, umidade e outros indicadores. Utilizou-se o Modelo Entidade-Relacionamento (MER) como uma representação visual para entender a estrutura do banco de dados.
+Fui o administrador do banco de dados da equipe em conjunto com a função de Scrum master. Como DBA desenvolvi desde a modelagem de dados até a criação da base de dados completa. Como scrum master fui responsável por garantir que o processo Scrum estivesse sendo seguido corretamente e que a equipe estivesse funcionando de maneira eficaz e produtiva.
+
+
 
 <br>
     <details>
 <summary>Modelagem do banco de dados.</summary>
 <br>
 
-A modelagem de dados para um banco de dados envolve a criação de uma estrutura organizada para armazenar e manipular os dados. Ela define as tabelas, colunas e relações entre os dados, garantindo a eficiência e a integridade do banco de dados. É um processo fundamental para projetar um sistema de banco de dados eficiente e fácil de usar.
+A modelagem de dados é o processo de criar um modelo que representa a estrutura e as relações dos dados em um banco de dados. No caso deste projeto, o objetivo da modelagem de dados foi representar os dados meteorológicos, como temperatura, umidade e outros indicadores. Utilizou-se o Modelo Entidade-Relacionamento (MER) como uma representação visual para entender a estrutura do banco de dados.
 
 ![Modelagem do banco de dados](https://github.com/alantrs/Bertoti/blob/e19d9567debe132ef4387b306ba9451d048716cf/metodologia/Imagens/modelagem_img1.jpeg)
 </details>
