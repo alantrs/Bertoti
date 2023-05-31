@@ -38,7 +38,7 @@ Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável
 
 ## Contribuições pessoais
 
-A modelagem de dados é o processo de criar um modelo que representa a estrutura e as relações dos dados em um banco de dados. O Modelo Entidade-Relacionamento (MER) é um modelo comum usado nesse processo. Ele consiste em entidades (objetos do mundo real), relacionamentos (associações entre as entidades) e atributos (características das entidades). O MER é uma representação visual que ajuda a entender a estrutura do banco de dados. Com base no MER, pode-se criar um modelo físico que descreve como os dados serão armazenados e organizados em um sistema de gerenciamento de banco de dados específico.
+A modelagem de dados é o processo de criar um modelo que representa a estrutura e as relações dos dados em um banco de dados. No caso deste projeto, o objetivo da modelagem de dados foi representar os dados meteorológicos, como temperatura, umidade e outros indicadores. Utilizou-se o Modelo Entidade-Relacionamento (MER) como uma representação visual para entender a estrutura do banco de dados.
 
 <br>
     <details>
@@ -158,15 +158,14 @@ CREATE TABLE vento (
 );
 
 ```
-
-</code></pre></div> |
-    
     
  </details>
    
 <details>
   <summary style="background-color: lightgray; padding: 5px;">Gerar backup.</summary>
     <br>
+    Backup é um processo essencial para proteger e preservar dados importantes. Ele permite recuperar informações perdidas devido a falhas de hardware, erros humanos, ataques cibernéticos ou desastres naturais. No nosso projeto foram realizados backups a cada sprint, para garantir a integridade e segurança dos dados
+  <br>
   <p style="margin-left: 20px;">
     <code>pg_dump -U postgres -d iacit -F p -f "C:backup_iacit.sql"</code>
   </p>
