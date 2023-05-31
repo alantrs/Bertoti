@@ -52,7 +52,6 @@ Fui o administrador do banco de dados da equipe em conjunto com a função de Sc
       <summary>Implementação física do banco de dados (criar as tabelas, definir as colunas, os tipos de dados, as chaves primárias, as chaves estrangeiras e as restrições necessárias para cada tabela).</summary>
       <br>
     
-      
 ```SQL
     
 CREATE TABLE regiao (
@@ -155,6 +154,8 @@ CREATE TABLE vento (
 );
 
 ```
+
+</code></pre></div> |
     
     
  </details>
