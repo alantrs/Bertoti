@@ -166,7 +166,7 @@ CREATE TABLE vento (
 <details>
   <summary style="background-color: lightgray; padding: 5px;">Gerar backup.</summary>
     <br>
-    Backup é um processo essencial para proteger e preservar dados importantes. Ele permite recuperar informações perdidas devido a falhas de hardware, erros humanos, ataques cibernéticos ou desastres naturais. No nosso projeto foram realizados backups a cada sprint, para garantir a integridade e segurança dos dados
+    Backup é um processo essencial para proteger e preservar dados importantes. Ele permite recuperar informações perdidas devido a falhas de hardware, erros humanos, ataques cibernéticos ou desastres naturais. No nosso projeto foram realizados backups a cada sprint, para garantir a integridade e segurança dos dados. O backup era gerado por esse simples comando.
   <br>
   <p style="margin-left: 20px;">
     <code>pg_dump -U postgres -d iacit -F p -f "C:backup_iacit.sql"</code>
