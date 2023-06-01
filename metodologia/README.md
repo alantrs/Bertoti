@@ -47,7 +47,7 @@ Fui o administrador do banco de dados da equipe em conjunto com a função de Sc
 <summary>Modelagem do banco de dados.</summary>
 <br>
 
-A modelagem de dados é o processo de criar um modelo que representa a estrutura e as relações dos dados em um banco de dados. No caso deste projeto, o objetivo da modelagem de dados foi representar os dados meteorológicos, como temperatura, umidade e outros indicadores. Utilizou-se o Modelo Entidade-Relacionamento (MER) como uma representação visual para entender a estrutura do banco de dados.
+No caso deste projeto, o objetivo da modelagem de dados foi representar os dados meteorológicos, como temperatura, umidade e outros indicadores. Utilizou-se o Modelo Entidade-Relacionamento (MER) como uma representação visual para entender a distribuição das tabelas com seus atributos e relacionamento entre elas.
 
 ![Modelagem do banco de dados](https://github.com/alantrs/Bertoti/blob/e19d9567debe132ef4387b306ba9451d048716cf/metodologia/Imagens/modelagem_img1.jpeg)
 </details>
