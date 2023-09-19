@@ -3,6 +3,18 @@
 ## Introdução
 Seja bem vindo ao meu portifólio acadêmico. Aqui estarão listados todos os meus projetos durante minha formação em Banco de dados. 
 
+# Projeto 1: Primeiro semestre
+
+### Empresa parceira  
+
+<p align="center">
+    <b>Interno - Fatec</b> 
+    <img src="https://github.com/alantrs/Bertoti/blob/fb16a234423d629719a0fa98c0c15c1295ef0420/metodologia/Imagens/Carcara.png" alt="Logo carcara analises">
+</p>
+
+
+# Projeto 2: Segundo semestre
+
 # Projeto 3: Terceiro semestre
 
 ### Empresa parceira  
@@ -226,6 +238,9 @@ Como DBA, adquiri conhecimentos em modelagem de dados, arquitetura do SGBD Postg
    <li>Habilidades de liderança e organização</li>
   </ul>
  </details>
+
+
+# Projeto 4: Quarto semestre
  
  
 
