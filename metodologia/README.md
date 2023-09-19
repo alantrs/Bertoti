@@ -5,6 +5,10 @@ Seja bem vindo ao meu portifólio acadêmico. Aqui estarão listados todos os me
 
 # Projeto 1: Primeiro semestre
 
+## Descrição do projeto
+
+Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem como objetivo analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
+
 ### Empresa parceira  
 
 <p align="center">
