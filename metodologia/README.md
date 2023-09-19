@@ -26,6 +26,7 @@ Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem 
     <img src="https://github.com/alantrs/Bertoti/blob/efd7a4e3055f78276feb65f55b0702623e0f2636/metodologia/Imagens/domrock2.png" alt="Logo dom rock">
 </p>
 
+
 # Projeto 3: Terceiro semestre
 
 ### Empresa parceira  
