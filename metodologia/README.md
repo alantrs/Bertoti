@@ -16,6 +16,11 @@ Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem 
     <img src="https://github.com/alantrs/Bertoti/blob/fb16a234423d629719a0fa98c0c15c1295ef0420/metodologia/Imagens/Carcara.png" alt="Logo carcara analises">
 </p>
 
+## Tecnologias utilizadas
+
+## Contribuições pessoais
+
+## Aprendizados efetivos
 
 # Projeto 2: Segundo semestre
 
@@ -26,6 +31,11 @@ Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem 
     <img src="https://github.com/alantrs/Bertoti/blob/efd7a4e3055f78276feb65f55b0702623e0f2636/metodologia/Imagens/domrock2.png" alt="Logo dom rock">
 </p>
 
+## Tecnologias utilizadas
+
+## Contribuições pessoais
+
+## Aprendizados efetivos
 
 # Projeto 3: Terceiro semestre
 
@@ -247,7 +257,14 @@ Como DBA, adquiri conhecimentos em modelagem de dados, arquitetura do SGBD Postg
 
 
 # Projeto 4: Quarto semestre
- 
+
+## Descrição do projeto
+
+## Tecnologias utilizadas
+
+## Contribuições pessoais
+
+## Aprendizados efetivos
  
 
 
