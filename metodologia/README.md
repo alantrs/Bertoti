@@ -1,13 +1,10 @@
 # Alan Araujo Rodrigues
 
 ## Introdução
-Seja bem vindo ao meu portifólio acadêmico. Aqui estarão listados todos os meus projetos durante minha formação em Banco de dados. 
+
+Trabalho de graduação na modalidade Portfólio dos projetos realizados com a metodologia Aprendizagem por Projetos Integrados (API), necessário como parte dos requisitos para obtenção do título de Tecnólogo em Banco de Dados pela Faculdade de Tecnologia de São José dos Campos.
 
 # Projeto 1: Primeiro semestre
-
-## Descrição do projeto
-
-Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem como objetivo analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
 
 ### Empresa parceira  
 
@@ -16,7 +13,15 @@ Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem 
     <img src="https://github.com/alantrs/Bertoti/blob/fb16a234423d629719a0fa98c0c15c1295ef0420/metodologia/Imagens/Carcara.png" alt="Logo carcara analises">
 </p>
 
+## Descrição do projeto
+
+Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem como objetivo analisar os dados oficiais da COVID-19 no Estado de São Paulo e entregá-los ao usuário de forma clara e contextualizada, através de visualizações gráficas ou não-gráficas.
+
 ## Tecnologias utilizadas
+
+- **Python**: Python é reconhecida por sua sintaxe simples e legibilidade, tornando-a uma escolha ideal para iniciantes em programação. Amplamente aplicada em diversos campos, como ciência de dados, desenvolvimento web e inteligência artificial, a linguagem destaca-se por sua versatilidade. Sendo interpretada, o código é executado linha por linha, eliminando a necessidade de compilação. Além disso, por ser uma linguagem de alto nível, mais próxima da linguagem humana, a programação em Python é intuitiva e acessível a um amplo público.
+
+- **Html, Css**: HTML (Hypertext Markup Language) e CSS (Cascading Style Sheets) desempenham papéis cruciais no design web. HTML é a espinha dorsal, estruturando o conteúdo da página, enquanto CSS dá vida ao visual, controlando cores, fontes e layout. A combinação destas linguagens permite a criação de interfaces atraentes e organizadas, proporcionando uma experiência de usuário consistente. HTML e CSS são essenciais para a construção de páginas web dinâmicas e visualmente agradáveis.
 
 ## Contribuições pessoais
 
@@ -32,7 +37,16 @@ Pandemia Estruturada é um projeto desenvolvido pela Carcará Analysis, que tem 
     <img src="https://github.com/alantrs/Bertoti/blob/efd7a4e3055f78276feb65f55b0702623e0f2636/metodologia/Imagens/domrock2.png" alt="Logo dom rock">
 </p>
 
+
+## Descrição do projeto
+
+Este projeto visa gerenciar a ativação de clientes na plataforma Dom Rock. A solução proposta concentra-se na entrada de dados, incluindo parâmetros e variáveis específicas de cada cliente, para efetuar a alocação adequada de recursos na plataforma. A abordagem inclui a estimativa de consumo de recursos, considerando fatores como o volume de dados do cliente e o número de usuários. Adicionalmente, a solução é projetada para gerar relatórios e consultas. 
+
 ## Tecnologias utilizadas
+
+- **Java**: Linguagem orientada a objetos, foi escolhida para o desenvolvimento do back-end devido à familiaridade prévia da equipe, ampla utilização no mercado e extensa documentação, facilitando a implementação do projeto.
+
+- **PostgreSQL**: PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto que é amplamente utilizado em aplicações empresariais e científicas, devido à sua confiabilidade, escalabilidade e recursos avançados. Além disso, o PostgreSQL é compatível com muitas linguagens de programação, incluindo Java, que foi usada neste projeto.
 
 ## Contribuições pessoais
 
@@ -58,9 +72,9 @@ Foi proposto um desafio para desenvolver um sistema capaz de importar dados mete
  ## Tecnologias utilizadas
 
  
-- **Java**: A linguagem Java foi utilizada para desenvolver todo o back-end da aplicação, utilizando o framework Spring Boot. O Spring Boot é uma estrutura que permite aos desenvolvedores criar rapidamente aplicativos web em Java, fornecendo um conjunto de ferramentas e bibliotecas que tornam a construção de aplicativos mais rápida e fácil.
+- **Java e Spring boot**: A linguagem Java foi utilizada para desenvolver todo o back-end da aplicação, utilizando o framework Spring Boot. O Spring Boot é uma estrutura que permite aos desenvolvedores criar rapidamente aplicativos web em Java, fornecendo um conjunto de ferramentas e bibliotecas que tornam a construção de aplicativos mais rápida e fácil.
 
-- **PostgreSQL**: O banco de dados PostgreSQL foi utilizado para armazenar os dados meteorológicos que foram importados a partir dos arquivos CSVs, que foram disponibilizados pela empresa. PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto que é amplamente utilizado em aplicações empresariais e científicas, devido à sua confiabilidade, escalabilidade e recursos avançados. Além disso, o PostgreSQL é compatível com muitas linguagens de programação, incluindo Java, que foi usada neste projeto. Isso significa que os dados podem ser facilmente acessados e manipulados por meio do back-end da aplicação, permitindo que a equipe de desenvolvimento crie consultas complexas para gerar os relatórios solicitados pelos clientes da empresa IACIT.
+- **PostgreSQL**: PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto que é amplamente utilizado em aplicações empresariais e científicas, devido à sua confiabilidade, escalabilidade e recursos avançados. Além disso, o PostgreSQL é compatível com muitas linguagens de programação, incluindo Java, que foi usada neste projeto.
 
 - **Html, Css, Javascript**: As linguagens de marcação HTML e CSS foram utilizadas em conjunto com a linguagem de programação JavaScript para criar a interface gráfica da aplicação. O HTML é a base da estrutura da página web, enquanto o CSS é responsável por definir o estilo visual e a aparência da página. O JavaScript é utilizado para adicionar interatividade à página, permitindo que o usuário realize ações e que os dados sejam exibidos e atualizados dinamicamente.
 Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável e intuitiva para os usuários da aplicação, permitindo que eles possam visualizar os dados meteorológicos e gerar relatórios de forma fácil e eficiente. Além disso, utilizamos uma biblioteca do javascript chamada Charts, perfeita para disponibilizar os dados em forma de gráficos.
@@ -68,8 +82,6 @@ Com o uso do HTML, CSS e JavaScript, foi possível criar uma interface amigável
 ## Contribuições pessoais
 
 Fui o administrador do banco de dados da equipe em conjunto com a função de Scrum master. Como DBA desenvolvi desde a modelagem de dados até a criação da base de dados completa. Como scrum master fui responsável por garantir que o processo Scrum estivesse sendo seguido corretamente e que a equipe estivesse funcionando de maneira eficaz e produtiva.
-
-
 
 <br>
     <details>
@@ -262,6 +274,12 @@ Como DBA, adquiri conhecimentos em modelagem de dados, arquitetura do SGBD Postg
 ## Descrição do projeto
 
 ## Tecnologias utilizadas
+
+- **Java e Spring boot**: A linguagem Java foi utilizada para desenvolver todo o back-end da aplicação, utilizando o framework Spring Boot. O Spring Boot é uma estrutura que permite aos desenvolvedores criar rapidamente aplicativos web em Java, fornecendo um conjunto de ferramentas e bibliotecas que tornam a construção de aplicativos mais rápida e fácil.
+
+- **Vue.js**: Vue.js é um framework de desenvolvimento web de código aberto e progressivo. Sua arquitetura centrada em componentes oferece uma abordagem modular que facilita a construção eficiente de aplicativos complexos.
+
+- **AutonomOus Database Oracle**: O Oracle Autonomous Database é uma solução de banco de dados em nuvem que se destaca pela automação completa, autogerenciamento e uso de machine learning. Elimina tarefas manuais, otimiza o desempenho, garante segurança e oferece escalabilidade automática, proporcionando eficiência e economia de custos. 
 
 ## Contribuições pessoais
 
