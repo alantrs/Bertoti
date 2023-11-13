@@ -50,7 +50,289 @@ Este projeto visa gerenciar a ativação de clientes na plataforma Dom Rock. A s
 
 ## Contribuições pessoais
 
+Fui o administrador do banco de dados da equipe. Desenvolvi a modelagem de dados e a criação da base de dados por completo. Ajudei a equipe de backend sendo solicitado por melhorias promovendo a maior facilidade para manipulação dos dados.
+
+<br>
+    <details>
+<summary>Modelagem do banco de dados.</summary>
+<br>
+        
+Nesse projeto, o objetivo da modelagem de dados foi representar os dados inseridos pelo cliente e como seria distribuido na nossa base. Utilizou-se o Modelo Entidade-Relacionamento (MER) como uma representação visual para entender a distribuição das tabelas com seus atributos e relacionamento entre elas.
+
+![Modelagem do banco de dados](https://github.com/alantrs/Bertoti/blob/778fd69f6e9fecddd2342af75295ff9542562f1e/metodologia/Imagens/modelagem-domrock.jpeg)
+</details>
+
+<details>
+      <summary>Implementação física do banco de dados (criar as tabelas, definir as colunas, os tipos de dados, as chaves primárias, as chaves estrangeiras e as restrições necessárias para cada tabela).</summary>
+      <br>
+    A implementação física é uma etapa fundamental na modelagem de dados, pois envolve a tradução do modelo conceitual em uma estrutura de dados real e eficiente para armazenar e processar os dados em um sistema de banco de dados. Ela é importante para garantir a eficiência, a integridade, a segurança e o desempenho do banco de dados, bem como sua escalabilidade e facilidade de manutenção.
+
+    ```SQL
+
+    CREATE TABLE public.cliente
+    (
+        id_cliente serial NOT NULL,
+        cnpj_cliente character varying COLLATE pg_catalog."default" NOT NULL,
+        nome_empresa character varying COLLATE pg_catalog."default" NOT NULL,
+        objetivo_negocio character varying COLLATE pg_catalog."default" NOT NULL,
+        data_hora_cadastro timestamp not null default CURRENT_TIMESTAMP(1),
+        CONSTRAINT cliente_pkey PRIMARY KEY (cnpj_cliente)
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.cliente
+        OWNER to postgres;
+    	
+    
+    CREATE TABLE public.produto
+    (
+        solucao character varying COLLATE pg_catalog."default" NOT NULL,
+        nome_produto character varying COLLATE pg_catalog."default" NOT NULL,
+        id_produto serial NOT NULL,
+        CONSTRAINT produto_pkey PRIMARY KEY (id_produto),
+        CONSTRAINT produto_nome_produto_key UNIQUE (nome_produto)
+    
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.produto
+        OWNER to postgres;
+    
+    
+    INSERT INTO public.produto (solucao, nome_produto, id_produto) VALUES ('Nxt.Demand', 'Vox', 1);
+    INSERT INTO public.produto (solucao, nome_produto, id_produto) VALUES ('Nxt.Demand', 'Marketing&Planning', 2);
+    INSERT INTO public.produto (solucao, nome_produto, id_produto) VALUES ('Nxt.Demand', 'Sales&Distribution', 3);
+    INSERT INTO public.produto (solucao, nome_produto, id_produto) VALUES ('Nxt.Demand', 'Pricing', 4);
+    INSERT INTO public.produto (solucao, nome_produto, id_produto) VALUES ('Nxt.Operations', 'Optimization', 5);
+    INSERT INTO public.produto (solucao, nome_produto, id_produto) VALUES ('Nxt.Operations', 'Matching&Risk', 6);
+    
+    CREATE TABLE public.funcionalidade
+    (
+        id_funcionalidade serial NOT NULL,
+        nome_funcionalidade character varying COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT funcionalidade_pkey PRIMARY KEY (id_funcionalidade),
+        CONSTRAINT funcionalidade_nome_funcionalidade_key UNIQUE (nome_funcionalidade)
+    
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.funcionalidade
+        OWNER to postgres;
+    	
+    
+    INSERT INTO public.funcionalidade (id_funcionalidade, nome_funcionalidade) VALUES (1,'Gerador de DataLake');
+    INSERT INTO public.funcionalidade (id_funcionalidade, nome_funcionalidade) VALUES (2,'Busca por LNP');
+    INSERT INTO public.funcionalidade (id_funcionalidade, nome_funcionalidade) VALUES (3,'Ingestão Automatizada');
+    INSERT INTO public.funcionalidade (id_funcionalidade, nome_funcionalidade) VALUES (4,'Painéis, gráficos e relatórios');
+    
+    
+    CREATE TABLE public.core
+    (
+        id_core serial NOT NULL,
+        nome_core character varying COLLATE pg_catalog."default" NOT NULL,
+        
+        CONSTRAINT core_pkey PRIMARY KEY (id_core),
+        CONSTRAINT core_nome_core_unique UNIQUE (nome_core)
+    
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.core
+        OWNER to postgres;
+    	
+    
+    INSERT INTO public.core (id_core, nome_core) VALUES (1,'Web App');
+    INSERT INTO public.core (id_core, nome_core) VALUES (2,'API Gateway');
+    INSERT INTO public.core (id_core, nome_core) VALUES (3,'Filas');
+    INSERT INTO public.core (id_core, nome_core) VALUES (4,'Step Function');
+    INSERT INTO public.core (id_core, nome_core) VALUES (5,'Lambda');
+    INSERT INTO public.core (id_core, nome_core) VALUES (6,'Fargate');
+    INSERT INTO public.core (id_core, nome_core) VALUES (7,'Containers');
+    INSERT INTO public.core (id_core, nome_core) VALUES (8,'S3');
+    INSERT INTO public.core (id_core, nome_core) VALUES (9,'MongoDB');
+    INSERT INTO public.core (id_core, nome_core) VALUES (10,'Parquet');
+    INSERT INTO public.core (id_core, nome_core) VALUES (11,'QuickSight');
+    INSERT INTO public.core (id_core, nome_core) VALUES (12,'CloudWatch');
+    
+    
+    CREATE TABLE public.origem_dado
+    (
+        id_origem serial NOT NULL,
+        nome_origem character varying COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT origem_dado_pkey PRIMARY KEY (id_origem),
+        CONSTRAINT origem_dado_nome_origem_unique UNIQUE (nome_origem)
+    
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.origem_dado
+        OWNER to postgres;
+    	
+    INSERT INTO public.origem_dado (id_origem, nome_origem) VALUES (1,'API');
+    INSERT INTO public.origem_dado (id_origem, nome_origem) VALUES (2,'SFTP');
+    INSERT INTO public.origem_dado (id_origem, nome_origem) VALUES (3,'Upload');
+    
+    
+    CREATE TABLE public.formato
+    (
+        id_formato serial NOT NULL,
+        nome_formato character varying COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT formato_pkey PRIMARY KEY (id_formato),
+        CONSTRAINT formato_nome_formato_unique UNIQUE (nome_formato)
+    
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.formato
+        OWNER to postgres;
+    
+    INSERT INTO public.formato (id_formato, nome_formato) VALUES (1,'JSON');
+    INSERT INTO public.formato (id_formato, nome_formato) VALUES (2,'CSV');
+    INSERT INTO public.formato (id_formato, nome_formato) VALUES (3,'Planilhas');
+    INSERT INTO public.formato (id_formato, nome_formato) VALUES (4,'Tabelas');
+    INSERT INTO public.formato (id_formato, nome_formato) VALUES (5,'PDF');
+    INSERT INTO public.formato (id_formato, nome_formato) VALUES (6,'Áudio');
+    INSERT INTO public.formato (id_formato, nome_formato) VALUES (7,'Texto');
+    
+    
+    
+    CREATE TABLE public.sistema
+    (
+        id_sistema serial NOT NULL,
+        nome_sistema character varying COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT sistema_pkey PRIMARY KEY (id_sistema),
+        CONSTRAINT sistema_nome_sistema_unique UNIQUE (nome_sistema)
+    
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.sistema
+        OWNER to postgres;
+    	
+    INSERT INTO public.sistema (id_sistema, nome_sistema) VALUES (1,'ERP');
+    INSERT INTO public.sistema (id_sistema, nome_sistema) VALUES (2,'Vendas');
+    INSERT INTO public.sistema (id_sistema, nome_sistema) VALUES (3,'Outros');
+    
+    CREATE TABLE public.cadastro_escopo
+    (
+        id serial NOT NULL,
+        cnpj character varying(20) COLLATE pg_catalog."default" NOT NULL,
+        entregavel_min character varying(100) COLLATE pg_catalog."default" NOT NULL,
+        entregaveis_possi character varying(100) COLLATE pg_catalog."default" NOT NULL,
+        produto character varying(50) COLLATE pg_catalog."default" NOT NULL,
+        estrutura character varying(50) COLLATE pg_catalog."default" NOT NULL,
+        volume character varying(20) COLLATE pg_catalog."default" NOT NULL,
+        funcionalidade character varying(100) COLLATE pg_catalog."default" NOT NULL,
+        core character varying(20) COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT cadastro_escopo_pkey PRIMARY KEY (id)
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.cadastro_escopo
+        OWNER to postgres;
+    
+    
+    CREATE TABLE public.bronze
+    (
+        id_bronze serial NOT NULL,
+        cnpj character varying COLLATE pg_catalog."default" NOT NULL,
+        origem character varying COLLATE pg_catalog."default" NOT NULL,
+        formato character varying COLLATE pg_catalog."default" NOT NULL,
+        volume character varying COLLATE pg_catalog."default" NOT NULL,
+        frequencia character varying COLLATE pg_catalog."default" NOT NULL,
+        sistema character varying COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT bronze_pkey PRIMARY KEY (id_bronze)
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.bronze
+        OWNER to postgres;
+    
+    CREATE TABLE public.usuario
+    (
+        id serial NOT NULL,
+        usuario character varying(20) COLLATE pg_catalog."default" NOT NULL,
+        senha character varying(20) COLLATE pg_catalog."default" NOT NULL,
+        nivelacesso character varying(20) COLLATE pg_catalog."default" NOT NULL,
+        CONSTRAINT usuario_pkey PRIMARY KEY (id)
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.usuario
+        OWNER to postgres;
+    
+    INSERT INTO public.usuario (id, usuario, senha, nivelacesso) VALUES (1, 'admin', '123', 'Administrador');
+    
+    CREATE TABLE public.silver
+    (
+        id_silver serial NOT NULL,
+        nomesilver character varying COLLATE pg_catalog."default",
+        status character varying COLLATE pg_catalog."default",
+        problema character varying COLLATE pg_catalog."default",
+        cnpjsilver character varying COLLATE pg_catalog."default",
+        CONSTRAINT silver_pkey PRIMARY KEY (id_silver)
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.silver
+        OWNER to postgres;
+    
+    CREATE TABLE public.gold
+    (
+    	id serial NOT NULL,
+        tiposilver character varying COLLATE pg_catalog."default",
+        nomegold character varying COLLATE pg_catalog."default",
+        cnpj character varying COLLATE pg_catalog."default",
+        CONSTRAINT gold_pkey PRIMARY KEY (id)
+    )
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
+    
+    ALTER TABLE public.gold
+        OWNER to postgres;
+
+    ```
+    
+ </details>
+
 ## Aprendizados efetivos
+
+
 
 # Projeto 3: Terceiro semestre
 
@@ -271,6 +553,13 @@ Como DBA, adquiri conhecimentos em modelagem de dados, arquitetura do SGBD Postg
 
 # Projeto 4: Quarto semestre
 
+### Empresa parceira
+
+<p align="center">
+    <b>Embraer</b> 
+    <img src="https://github.com/alantrs/Bertoti/blob/d531b08b75f48d28384f5268f033b55000ce8b35/metodologia/Imagens/Logo_parceria.png" alt="Logo embraer">
+</p>
+
 ## Descrição do projeto
 
 ## Tecnologias utilizadas
@@ -285,6 +574,8 @@ Como DBA, adquiri conhecimentos em modelagem de dados, arquitetura do SGBD Postg
 
 ## Aprendizados efetivos
  
+
+
 
 
 
